@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Chivo:wght@900&family=Inter&display=swap');
+
+
+
+    body{
+        display: flex;
+        flex-direction: column;
+        background: #F8F8F8;
+    }
+    header h1{
+        font-family: 'Chivo',Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        font-size: 88px;
+        line-height: 102,08px;
+    }
+    header h2{
+        font-family: 'Archivo',Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64,96px;
+        
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #FFFFFF;
+        height: 1612px;
+        width: 1114px;
+        align-self: center;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 154px 8px 0px 8px;
+
+        
+    }
+    li{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style: none;
+        height: 472px;
+        margin: 7px 8px 7px 8px;
+    }
+    li img{
+        height: 224px;
+        align-self: center;
+    }
+    li p{
+        font-family: 'Inter',Arial, Helvetica, sans-serif;;
+        width: 227px;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    li .originalPrice{
+        font-size: 11px;
+        
+    }
+    li .preco{
+        font-size: 24px;
+
+    }
+    li .avaliacao{
+        color: #FB8200;
+    }
+    li .nome-produto{
+        height: 74px;
+    }
+    li .container-preco{
+        height: 50px;
+        justify-content: center;
+    }
+    button{
+        border: 1px solid #9DC2FF;
+        height: 32px;
+        width: 88px;
+        left: 0px;
+        top: 0px;
+        border-radius: 4px;
+        font-weight: 500;
+        line-height: 20,02px;
+        color: #2264D1;
+
+    }
+
